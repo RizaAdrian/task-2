@@ -7,10 +7,10 @@
 	<body>
 		<script type="text/javascript">
 			function reverse(s) {
-			  return s.split("").reverse().map(function(x){ return x.toUpperCase() });
+			 /* return s.split("").reverse().map(function(x){ return x.toUpperCase() });*/
+			 return s.toUpperCase().split("").reverse();
 			}
-			var r = reverse('abcd');
-			console.log(r);
+			console.log(reverse('abcd'));
 		</script>
 	</body>
 </html>
